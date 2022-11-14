@@ -68,4 +68,15 @@ int main() {
 }
 ```
 
+Результат кода:
+```
+Result sum: 30
+Result sub: 8
+Result mul: 209
+Result div: 1
+Result div 21.727273
+Result mod: 8
+Result: 96
+```
+
 
