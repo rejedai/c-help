@@ -4,7 +4,7 @@
 void min_max_swap(float *m_pointer, int m_count) {
     float max = -FLT_MAX;
     float min = FLT_MAX;
-    
+
     for(int a=0; a<m_count; a++) {
         if(min > m_pointer[a]) {
             min = m_pointer[a];

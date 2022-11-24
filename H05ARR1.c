@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include <limits.h>
 
 int max_item(int *m_pointer, int m_count) {
-    int max = -32767;
+    int max = INT_MIN;
     for(int a=0; a<m_count; a++) {
         if(max < m_pointer[a]) {
             max = m_pointer[a];

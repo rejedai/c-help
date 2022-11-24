@@ -21,7 +21,7 @@ int main() {
     for(int a=0; a<sizeof(m)/sizeof(m[0]); a++) {
         printf("%d ", m[a]);
     }
-    max_item(&m, sizeof(m)/sizeof(m[0]));
+    odd_first(&m, sizeof(m)/sizeof(m[0]));
     printf("\n");
     for(int a=0; a<sizeof(m)/sizeof(m[0]); a++) {
         printf("%d ", m[a]);
