@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <float.h>
 
-void min_max_swap(float *m_pointer, int m_count) {
+void min_max_swap(float m_pointer[], int m_count) {
     float max = -FLT_MAX;
     float min = FLT_MAX;
 
@@ -23,7 +23,7 @@ void min_max_swap(float *m_pointer, int m_count) {
 }
 
 int main() {
-    float m[] = {3.1, 4.2, 1.1, 7.3, 4.2, 1.1, 3.1, 4.2, 7.3};
+    float m[] = { 3.1f, 4.2f, 1.1f, 7.3f, 4.2f, 1.1f, 3.1f, 4.2f, 7.3f };
     
     for(int i=0; i<sizeof(m)/sizeof(m[0]); i++){
         printf("%f ", m[i]);

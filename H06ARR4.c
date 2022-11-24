@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void reverse(int *m_pointer, int m_count) {
+void reverse(int m_pointer[], int m_count) {
     int buf = m_pointer[0];
     m_pointer[0] = m_pointer[m_count-1];
     m_pointer[m_count-1] = buf;

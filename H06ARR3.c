@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void odd_first(int *m_pointer, int m_count) {
+void odd_first(int m_pointer[], int m_count) {
     int odd_counter = 0;
 
     for(int a=0; a<m_count; a++) {
@@ -21,7 +21,7 @@ int main() {
     for(int a=0; a<sizeof(m)/sizeof(m[0]); a++) {
         printf("%d ", m[a]);
     }
-    odd_first(&m, sizeof(m)/sizeof(m[0]));
+    odd_first(&m[0], sizeof(m)/sizeof(m[0]));
     printf("\n");
     for(int a=0; a<sizeof(m)/sizeof(m[0]); a++) {
         printf("%d ", m[a]);
