@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void odd_first(int m_pointer[], int m_count) {
-    int odd_counter = 0;
+    int odd_counter = 0; //счетчик четных чисел.
 
     for(int a=0; a<m_count; a++) {
         if(m_pointer[a]%2==0){
